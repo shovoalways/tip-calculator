@@ -12,7 +12,7 @@ show how many attempts you tried. I a fun experience.
 
 ## 🥰 App screenshot
 
-![Logo](https://github.com/shovoalways/Guess-Game/blob/main/guessthenumber/img/screenshot.jpg?raw=true)
+![Logo](https://github.com/shovoalways/tip-calculator/blob/main/tipApp/img/Screenshot_1.png?raw=true)
 
 ## 🥰 Follow me
 

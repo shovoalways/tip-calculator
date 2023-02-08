@@ -1,0 +1,163 @@
+/*=======================
+ * Goolge Font
+========================*/
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/*=======================
+ * Common CSS
+========================*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1em;
+  margin: 0;
+}
+body {
+  background: #201e2f;
+  font-family: 'Itim', cursive;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top_body {
+  width: 90%;
+  max-width: 600px;
+}
+.logo_area,
+.total_per_person,
+#form {
+  padding: 25px 35px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/*=======================
+ * Logo Area Style
+========================*/
+.logo_area {
+  background: #00feb5;
+  text-align: center;
+}
+.logo_area h2 {
+  color: #2d3436;
+}
+
+/*=======================
+ * Form Area Style
+========================*/
+#form {
+  background: #2c3e50;
+}
+#form label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#form input {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border: 0;
+  border-radius: 25px;
+  font-family: 'Itim', cursive;
+  background: #34495e;
+  width: 100%;
+  color: #fff;
+}
+.people_area {
+  margin-top: 20px;
+}
+.people_area p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.inner_people {
+  display: flex;
+  justify-content: space-between;
+}
+.inner_people ul {
+  list-style: none;
+  display: flex;
+}
+.inner_people ul li {
+  font-size: 30px;
+}
+#minusSum {
+  background: #e74c3c;
+}
+#plusSum {
+  background: #2ecc71;
+}
+#minusSum,
+#plusSum {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 3px;
+}
+#peopleSum {
+  margin: 5px 20px 0;
+}
+#calculator {
+  background: #a29bfe;
+  border: 0;
+  color: #fff;
+  padding: 10px 35px;
+  font-family: 'Itim', cursive;
+  font-size: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#calculator:hover {
+  background: #6c5ce7;
+}
+
+/*=======================
+ * Summary Area Style
+========================*/
+.total_per_person {
+  background: #121617;
+  margin-bottom: 0px;
+  display: none;
+}
+.total_per_person div {
+  display: flex;
+  justify-content: space-between;
+}
+.total_per_person hr {
+  border: 2px dashed #ddd;
+  margin-bottom: 10px;
+}
+.total_per_person h2 {
+  color: #00feb5;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.total_per_person h3,
+.total_per_person h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
